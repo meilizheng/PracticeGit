@@ -101,7 +101,17 @@ In terminal type
 >
 > You can do git commit without -m, but then it will just ask you for a message aftwards, so this is quicker.
 
+Now run `git status`.
 
+***Result***
+
+![After we commit our README.md](Images/Commit.png) 
+After we **commit** our **staged change** there should be no files in our `git status`. That means git and our project now have the same changes.
+
+### What Visual Studio Sees
+
+"There are no unstanged changes..."
+![See Staged in Git Status in Visual Studio](Images/VS_Commited.png)
 
 ---
 ## Keywords
