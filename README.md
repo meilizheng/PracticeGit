@@ -27,7 +27,7 @@ Git tracks changes to your project as you save.
 ---
 Type your name below   
 
-> What's your name? :   
+> What's your name? :  Replace this text with your name
 
 And save the file ( ctrl + s )
 
@@ -61,6 +61,45 @@ After you've made changes to your project, you need to tell git what changes you
 Notice with our `git status`, README.md is in red, that means it is not staged. To stage it, in terminal type
 
 `git add *`
+
+> We use the git keyword, followed by the command add, then a astrix *. The astrix is a symbol commonly used to indicate ALL. So git add * means add all files.
+
+Then type `git status` again
+
+***Result***
+![Git Status Result](Images/Staged.png)
+
+You should now see our README.md in green. This means it is ***Staged***. Git knows that we want to commit this file.
+
+You can also do individual files, or folders. But I use `git add *` most of the time.
+
+### What Visual Studio Sees
+
+Our Git Changes has now moved our README.md under `staged changes`.
+![See Staged in Git Status in Visual Studio](Images/VS_Staged.png)
+
+Lets commit our changes with a message.
+
+---
+3. ***git commit -m "Message"***
+
+Now that we have changes staged we can "commit" them.
+
+> ***What IS commit:***  
+Commit saves your current project changes to git. You can see a list of all your commits by opening View -> Git Repository.
+>
+>![My Commit History](Images/Commit_History.png)  
+> Each commit is a version of my project I could revert to if something broke.
+
+Now with our README.md staged, lets commit our change.
+
+In terminal type
+
+`git commit -m "Update README.md"`
+
+> We have our git keyword, followed by the command "commit". Next we have -m. This is a paremeter which says we want to include a message. Followed by double quotes and our message "Update README.md".  
+>
+> You can do git commit without -m, but then it will just ask you for a message aftwards, so this is quicker.
 
 
 
