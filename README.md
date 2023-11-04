@@ -113,6 +113,18 @@ After we **commit** our **staged change** there should be no files in our `git s
 "There are no unstanged changes..."
 ![See Staged in Git Status in Visual Studio](Images/VS_Commited.png)
 
+***Imporant*** This is all Local. This means your tracking everything on your current computer, but if something happens to your computer, you will still lose data. Lets `push` our repository online to save our on `GitHub`.
+
+---
+
+4. ***git push***  
+
+`pushing` your repository uploads all your commits to GitHub. This saves them in the cloud. You can can then view your repository in your GitHub account.
+
+In terminal type
+
+`git push`
+
 ---
 ## Keywords
 * `git` - Used to access git commands
