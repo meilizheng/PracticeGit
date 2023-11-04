@@ -54,3 +54,5 @@ Working with Branches
 	* `git checkout -b MyNewBranch`
 * `checkout branchName` - Switch between branches
 	* `git checkout main` - switch to main branch
+* `merge branchToMerge` - Merge a different branch to current branch
+	* `git merge branchToMerge` 
