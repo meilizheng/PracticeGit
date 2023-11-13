@@ -113,6 +113,7 @@ In terminal type
 
 Now run `git status`.
 
+
 ***Result***
 
 ![After we commit our README.md](Images/Commit.png) 
