@@ -155,7 +155,7 @@ And that's what it takes to use Termianl To Commit and Push your repo online.
 #### Your `save, add, commit, push` Workflow
 
 Type your favorite color below:
-> Blue
+> Purple
 Then save.
 
 Now do the following in terminal, one command at a time
